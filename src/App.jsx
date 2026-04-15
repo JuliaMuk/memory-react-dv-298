@@ -17,6 +17,7 @@ function App() {
             <Route path='list' element={ <List />} />
             <Route path='item/:id' element={ <Item />} />
         </Route>
+        {/* <Route path="/404" element={<Page404 />} /> */}
         <Route path='*' element={<Page404 />} />
       </Routes>
     </BrowserRouter>
