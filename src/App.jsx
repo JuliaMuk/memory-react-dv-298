@@ -9,7 +9,7 @@ import Item from './components/Item'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/memory-react-dv-298'>
       <Routes>
         <Route path='/' element={<PageMain />} />
         <Route path='/game' element={<PageGame />} />
